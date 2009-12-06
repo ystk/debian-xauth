@@ -1,0 +1,25 @@
+Source: xauth
+Section: x11
+Priority: optional
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: David Nusinow <dnusinow@debian.org>, Julien Cristau <jcristau@debian.org>, Brice Goglin <bgoglin@debian.org>
+Build-Depends:
+ debhelper (>= 5.0.0),
+ pkg-config,
+ libx11-dev (>= 2:1.0.0),
+ libxext-dev (>= 1:1.0.0),
+ libxmuu-dev (>= 1:1.0.1),
+ automake,
+ xutils-dev (>= 1:7.5~1)
+Standards-Version: 3.8.3
+Vcs-Git: git://git.debian.org/git/pkg-xorg/app/xauth
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/app/xauth.git
+
+Package: xauth
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: xbase-clients (<= 1:7.2.ds2-3)
+Description: X authentication utility
+ xauth is a small utility to read and manipulate Xauthority files, which
+ are used by servers and clients alike to control authentication and access
+ to X sessions.
