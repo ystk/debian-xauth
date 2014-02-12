@@ -1,3 +1,40 @@
+xauth (1:1.0.7-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Julien Cristau <jcristau@debian.org>  Tue, 01 May 2012 10:15:53 +0200
+
+xauth (1:1.0.6-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update Uploaders list. Thanks, David & Brice!
+  * Wrap Depends.
+  * Remove long-obsolete Replaces.
+  * Switch to dh:
+    - Use dh-autoreconf and quilt sequences.
+    - Bump dh build-dep and compat.
+    - Rewrite debian/rules.
+    - Add a placeholder for quilt.
+  * Get rid of xsfbs accordingly.
+  * Bump Standards-Version (no changes needed).
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 04 Jun 2011 01:02:46 +0200
+
+xauth (1:1.0.5-1) unstable; urgency=low
+
+  [ Julien Cristau ]
+  * Remove myself from Uploaders.
+  * Rename the build directory to not include DEB_BUILD_GNU_TYPE for no
+    good reason.  Thanks, Colin Watson!
+
+  [ Cyril Brulebois ]
+  * New upstream release.
+  * Bump xutils-dev build-dep for new macros.
+  * Fix dh_makeshlibs, dh_shlibdeps, dh_installdeb order.
+  * Add myself to Uploaders.
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 03 Nov 2010 10:07:13 +0100
+
 xauth (1:1.0.4-1) unstable; urgency=low
 
   [ Timo Aaltonen ]
