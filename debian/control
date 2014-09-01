@@ -2,7 +2,6 @@ Source: xauth
 Section: x11
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Uploaders: Cyril Brulebois <kibi@debian.org>
 Build-Depends:
  debhelper (>= 8),
  dh-autoreconf,
@@ -12,6 +11,7 @@ Build-Depends:
  libxext-dev (>= 1:1.0.0),
  libxmuu-dev (>= 1:1.0.1),
  xutils-dev (>= 1:7.5+4),
+ cmdtest,
 Standards-Version: 3.9.2
 Vcs-Git: git://git.debian.org/git/pkg-xorg/app/xauth
 Vcs-Browser: http://git.debian.org/?p=pkg-xorg/app/xauth.git

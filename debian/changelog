@@ -1,3 +1,12 @@
+xauth (1:1.0.9-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Remove Cyril from Uploaders.
+  * Disable silent build rules and silent tests.
+  * Add build-dep on cmdtest for make check.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 13 Jul 2014 10:34:06 +0200
+
 xauth (1:1.0.7-1) unstable; urgency=low
 
   * New upstream release.
